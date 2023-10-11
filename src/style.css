@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(45deg, #d50b73 0%, #73d50b 30%, #0b73d5 90%);
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+header{
+    border-bottom: 2px black solid;
+}
+.hobbie{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+}
+footer {
+    color: white;
+    font-size: 19px;
+    background: repeating-linear-gradient(
+        45deg,
+        #FFA07A 0px,
+        #FF1493 50px,
+        #FFC0CB 50px,
+        #c850c0 100px,
+        #5FD4B1 10px,
+        #5FD4B1 150px
+    );
+}
+footer p {
+    padding-left: 170px;
+}
+.hobbie:hover{
+    border: 1px solid pink;
+    border-radius: 24px;
+}
